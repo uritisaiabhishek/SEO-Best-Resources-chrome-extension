@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-color: #EBD3F8;
+  }
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Color of the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7A1CAC; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded corners for the handle */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7A1CAC; /* Darker on hover */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin; /* Thin scrollbar */
+  scrollbar-color: #7A1CAC #EBD3F8; /* Handle color and track color */
+}
+
+  h1 {
+    text-align: center;
+    color: #7A1CAC;
+  }
+  p{
+    text-align: center;
+  }
+  #accordion{
+    width: 350px;
+  }
+  .accordion-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #7A1CAC;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 10px;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 40%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 50px;
+  }
+  
+  .card span {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
